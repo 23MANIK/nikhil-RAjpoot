@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Nikhil Fitness</title>
+	</head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/css/style.css">
+
+	<style >
+		body{
+			font-family: 'Lato', sans-serif;
+			color: solid #ceaf2c;
+			margin:0px;
+			padding: 0px;
+			background: url('img/bg.jpg');
+			height: 1080px;
+		}
+
+		.Left{
+			position: absolute;
+			left: 30px;
+			display: inline-block;
+			color: #ceaf2c;
+			/*border: 2px solid red;*/
+			top: 20;
+		}
+		.Left img{
+			width: 100px;
+			align-items: center;
+
+		}
+		.Left div{
+			text-align: center;
+		}
+		.Right{
+			position: absolute;
+			right: 30px;
+			display: inline-block;
+			color: #ceaf2c;
+			/*border: 2px solid green;*/
+			top: 20;
+		}
+		.mid{
+
+			display: block;
+			width: 40%;
+			margin: 12px auto;
+			/*border: 2px solid blue;*/
+			top: 20;
+		}
+		.navbar{
+			display: inline-block;
+		}
+		.navbar li{
+			display: inline-block;
+			font-size: 15px;
+		}
+		.navbar li a{
+			color: #ceaf2c;
+
+			text-decoration: none;
+			padding: 34px 23px;
+		}
+		.navbar li a:hover,.navbar li a.active{
+			text-decoration: underline;
+			color: #FFDF00;
+		}
+.btn{
+	font-family: 'Lato', sans-serif;
+margin: 0px 9px;
+background-color: #ceaf2c;
+color: white;
+padding: 8px 8px;
+border: 2px solid #d2ae19;
+border-radius: 6px;
+font-size: 15px;
+cursor: pointer;
+}
+.btn:hover{
+	background-color: grey;
+}
+.container{
+	border: 2px solid #cf9a34;
+    margin: 90px 301px;
+    padding: 50px 50px;
+		color: #ceaf2c;
+    width: 45%;
+    height: 50%;
+    border-radius: 26px
+}
+.form-group input{
+	font-family: 'Lato', sans-serif;
+	display: block;
+	text-align: center;
+	font-size: 27px;
+	width: 300px;
+	border-radius: 7px;
+	padding: 9px;
+	border: 2px solid #ceaf2c;
+	margin: 16px auto;
+
+}
+.container h1{
+	text-align: center;
+	color: solid #cf9a34;
+}
+
+.container button{
+	display: block;
+	width: 45%;
+	margin: auto;
+	align-items: center;
+}
+	</style>
+
+
+	<body>
+		<header class="header">
+
+			<div class="Left">
+			<img src="img/gym.png" alt="">
+			<div>NIKS WORK</div>
+			</div>
+
+			<div class="Right">
+				<button class="btn" name="button">Call Us Now</button>
+				<button class="btn" name="button">Email Us</button>
+			</div>
+			<div class="mid">
+				<ul class="navbar">
+					<li><a href="#" class="active">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Fitness Calculator</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+
+		</header>
+
+		<div class="container">
+
+	<h1>join the best hotel of Mahoba</h1>
+ <form  action="noaction.php" >
+
+	 <div class="form-group">
+	 	<input type="text" placeholder="Enter your Name">
+	 </div>
+	 <div class="form-group">
+	 	<input type="text" placeholder="Enter your Age">
+	 </div>
+	 <div class="form-group">
+	 	<input type="text" placeholder="Enter your Gender">
+	 </div>
+	 <div class="form-group">
+	 	<input type="text" placeholder="Enter your Locality">
+	 </div>
+	 <div>
+		 <button class="btn">Submit</button>
+	 </div>
+
+ </form>
+		</div>
+
+
+
+	</body>
+</html>
